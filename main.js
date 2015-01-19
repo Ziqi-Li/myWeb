@@ -1,4 +1,4 @@
-var myName = "Ziqi";
+var myName = "Welcome !";
 
 var red = [0, 100, 63];
 var orange = [40, 100, 60];
@@ -8,7 +8,6 @@ var purple = [280, 50, 60];
 var letterColors = [red, orange, green, blue, purple];
 
 drawName(myName, letterColors);
-
 if(10 < 3)
 {
     bubbleShape = 'square';
