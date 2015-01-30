@@ -1,0 +1,43 @@
+html, body, #map-canvas { height: 100%; margin: 0; padding: 0;}
+
+#toggle-view {
+	position: absolute;
+	left: 5px;
+	top: 50%;
+	margin-top: -195px;
+	height: 300px;
+	width: 200px;
+	padding: 5px;
+	z-index: 5;
+	border: 1px solid #999;
+	background: #fff;
+	opacity: 0.9;
+	list-style:none;	
+	font-family:Helvetica;
+	font-size:11px;
+	overflow: scroll;
+}
+
+#toggle-view li {
+	margin:10px;
+	border-bottom:1px solid #ccc;
+	position:relative;
+	cursor:pointer;
+}
+
+#toggle-view h3 {
+	margin:0;
+	font-size:12px;
+}
+
+#toggle-view span {
+	position:absolute;
+	right:5px; top:0;
+	color:#ccc;
+	font-size:13px;
+}
+
+#toggle-view .panel {
+	margin:5px 0;
+	display:none;
+}	
