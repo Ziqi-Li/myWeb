@@ -5,6 +5,7 @@ function restaurant(Name, Address) {
 
 var geocoder;
 var map;
+
 function initialize() {
 	geocoder = new google.maps.Geocoder();
 	var styles = [{
@@ -40,9 +41,7 @@ function codeAddress(number) {
             	map: map,
             	position: results[0].geometry.location,
             	animation: google.maps.Animation.DROP
-        	});
-	    	
-	    	
+        	});	    	
         	map.setZoom(12);
 			google.maps.event.addListener(marker, 'click', function() {
 				infowindow.open(map,marker);

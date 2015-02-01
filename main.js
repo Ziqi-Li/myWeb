@@ -1,4 +1,4 @@
-var myName = "Ziqi Li";
+var myName = "Way of Ziqi";
 
 var red = [0, 100, 63];
 var orange = [40, 100, 60];
@@ -18,3 +18,7 @@ else
 }
 
 bounceBubbles();
+
+function enterToHomePage(){
+	location.href = "index.html"
+};

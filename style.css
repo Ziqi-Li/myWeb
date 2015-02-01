@@ -1,7 +1,49 @@
-canvas {
+body{
+	background-color: black;
+}
+#myCanvas {
+	margin-top:0;
     padding-left: 0;
     padding-right: 0;
     margin-left: auto;
     margin-right: auto;
     display: block;
+}
+
+.enter {
+	font-family:Copperplate;
+	right: 100px;
+	padding: 5px;
+	font-size:50px;
+	border-bottom:1px solid #ccc;
+	width: 200px;
+	height: 30px;
+	line-height:32px;
+	position: absolute;
+	color:white;
+	cursor:pointer;
+}
+
+.enter:hover{
+	color:white;
+    transition: background .3s linear;
+         -o-transition: background .3s linear;
+       -moz-transition: background .3s linear;
+    -webkit-transition: background .3s linear;
+    background-color:white;
+    color:black;
+	//text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 3px #fff, 0 0 4px #fff, 0 0 5px #fff, 0 0 6px #fff, 0 0 7px #fff, 0 0 8px #fff;
+}
+#top{
+	position: relative;
+	font-family:Copperplate;
+	text-align: center;
+	margin-top:50px;
+	height: 50px;
+	width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size:50px;
+    display: block;
+	color:white;
 }
