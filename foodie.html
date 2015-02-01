@@ -1,41 +1,21 @@
 <!DOCTYPE html>
 <html>
 	<head>
+	<title>Food!!!</title>
   	<link rel="stylesheet" href="style.css"/>
   	<link rel="stylesheet" href="foodieMap.css"/>
-	<script type="text/javascript" src="jquery-1.11.2"></script>
     <script type="text/javascript"
-    	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAFJjniUpQEhmXOjtI0XM7c8a7p9ZrTCQQ">
+    	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAFJjniUpQEhmXOjtI0XM7c8a7p9ZrTCQQ&signed_in=true">
     </script>
-    <script type="text/javascript"
-  		src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true">
-	</script>
 	<script type="text/javascript" src="foodList.js"></script>
   	</head>
-  	<body>
+  	<body onload="initialize()">
 		<div id="map-canvas"></div>
-		<ul id="toggle-view">
-			<li class="sucks">
-				<h3>Honey Pig</h3>
-				<span>+</span>
-				<div class="panel">
-					<p>7220 Columbia Pike, Annandale, VA 22003</p>
-				</div>
-			</li>
-			<li>
-				<h3>Hot and Juicy CrawFish</h3>
-				<span>+</span>
-				<div class="panel">
-					<p>2651 Connecticut Avenue Northwest, Washington, DC 20008</p>
-				</div>
-			</li>
-			<li>
-				<h3>China Garden</h3>
-				<span>+</span>
-				<div class="panel">
-					<p>1100 Wilson Boulevard, Rosslyn, VA 22209</p>
-				</div>
-			</li>
-		</ul>
+		<div id="toggle-view">
+			<div class='storeName' onclick="codeAddress(0)">Honey Pig</div>
+			<div class='storeName' onclick="codeAddress(1)">China Express</div>
+			<div class='storeName' onclick="codeAddress(2)">Hot&Juicy CrawFish</div>
+			<div class='storeName' onclick="codeAddress(3)">Hongkong Place</div>
+		</div>
   	</body>
 </html>
