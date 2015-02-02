@@ -1,5 +1,5 @@
 body{
-	background-color: black;
+	background-color: #DC143C;
 }
 #myCanvas {
 	margin-top:0;
@@ -25,16 +25,15 @@ body{
 }
 
 .enter:hover{
-	color:white;
     transition: background .3s linear;
          -o-transition: background .3s linear;
        -moz-transition: background .3s linear;
     -webkit-transition: background .3s linear;
     background-color:white;
-    color:black;
+    color:#DC143C;
 	//text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 3px #fff, 0 0 4px #fff, 0 0 5px #fff, 0 0 6px #fff, 0 0 7px #fff, 0 0 8px #fff;
 }
-#top{
+#topWelcome{
 	position: relative;
 	font-family:Copperplate;
 	text-align: center;
