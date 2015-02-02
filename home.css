@@ -1,14 +1,57 @@
+html, body{height: 100%; margin:0; padding: 0;}
 #top{
 	position: relative;
 	font-family:Copperplate;
-	text-align: center;
-	margin-top:50px;
-	height: 50px;
+	text-align: left;
+	height: 100px;
 	width: 100%;
-    margin-left: auto;
-    margin-right: auto;
     font-size:50px;
-    display: block;
 	color:white;
-	background-color:32A3D3;
+	background-color:red;
 }
+#menuHolder{
+	top:40px;
+	right: 100px;
+	height: 60px;
+	width: 600px;
+	position: absolute;
+	color:white;
+	background-color:red;
+
+}
+.menuItem{
+	margin-top: 25px;
+	height: auto;
+	width: auto;
+	position: relative;
+	color:white;
+	font-size:25px;
+	background-color:red;
+	float: left;
+	margin-right: 50px;
+	line-height:20px;
+
+}
+.menuItem:hover{
+	color:black;
+}
+#botline{
+	margin-top: 10px;
+	height: 3px;
+	width: auto;
+	background-color:white;
+}
+#main{
+	font-family:Copperplate;
+	height:auto;
+	width: 100%;
+	position: relative;
+	color:black;
+	font-size:50px;
+	background-color:white;
+	text-align: center;
+	margin-top: 200px;
+}
+
+
+
