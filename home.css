@@ -12,9 +12,10 @@ html, body{
 	width: 100%;
     font-size:50px;
 	color:white;
-	background-color:black;
-	border-bottom:thick solid black;
+	background-color:#323232;
+	border-bottom:thick solid #323232;
 	z-index:1;
+	
 }
 #name-logo{
 	text-decoration: none; 
@@ -53,7 +54,6 @@ html, body{
 	float: left;
 	margin-right: 50px;
 	line-height:20px;
-
 }
 .menuItem:hover{
 	color:#DC143C;
@@ -108,7 +108,7 @@ html, body{
 	font-size:20px;
 	color:white;
 	word-wrap: break-word;
-	text-align: left;
+	text-align: justify;
 }
 #here{
 	text-decoration: underline; 
