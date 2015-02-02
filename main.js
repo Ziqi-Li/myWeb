@@ -20,5 +20,5 @@ else
 bounceBubbles();
 
 function enterToHomePage(){
-	location.href = "index.html"
+	location.href = "home.html"
 };
