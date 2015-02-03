@@ -52,7 +52,7 @@ html, body{
 #main-adm{
 	z-index:0;
 	margin-bottom:0px;
-	font-family:Copperplate, Copperplate Gothic Bold;
+	font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
 	width: 100%;
 	height:auto;
 	position: absolute;
