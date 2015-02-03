@@ -1,0 +1,176 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    }
+#float-pager{
+	position:fixed;
+	top:200px;
+	left:50px;
+	height:auto;
+	width: 150px;
+	font-size:23px;
+	text-align:left;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-color:white;
+	padding-left:10px;
+}
+.edu-time{
+	list-style-type: none;
+	text-align: center;
+	font-size:25px;
+}
+.edu-degree{
+	position:relative;
+	list-style-type: none;
+	text-align: center;
+	font-size:23px;
+	margin-bottom:20px;
+}
+.float-item{
+	height:30px;
+	margin-top:2px;
+	line-height:30px;
+	text-decoration:none;
+	color:white;
+}
+.float-item:hover{
+	background-color:white;
+	color:#DC143C;
+}
+#container{
+	position: relative;
+	height:auto;
+	width: 800px;
+	font-size:50px;
+	text-align: center;
+	margin:0 auto;
+	background-color:#DC143C;
+}
+#main-adm{
+	z-index:0;
+	margin-bottom:0px;
+	font-family:Copperplate;
+	width: 100%;
+	height:auto;
+	position: absolute;
+	color:white;
+	font-size:50px;
+	background-color:#DC143C;
+	text-align: center;
+	overflow:hidden;
+}
+.category-container{
+	margin-top:50px;
+	height:30px;
+	width: 100%;
+	position: relative;
+	margin-bottom:70px;
+}
+.category{
+	height:auto;
+	width:250px;
+	border-bottom:2px solid white;
+	font-size:40px;
+	position: relative;
+	margin: 0 auto;
+	
+}
+.project{
+	border-bottom:1px solid white;
+	height:275px;
+	width: 100%;
+	position: relative;
+	margin:25px 25px 0px 0px;
+}
+.snapshot{
+	border-style: solid;
+	border-width: 1px;
+	border-color:white;
+	height:250px;
+	width: 200px;
+	position: relative;
+	float:left;
+}
+.description{
+	font-family:Candara;
+	//border-style: solid;
+	//border-width: 2px;
+	border-color:white;
+	height:250px;
+	width: 500px;
+	line-height:25px;
+	position: relative;
+	float:right;
+	font-size:20px;
+	color:white;
+	word-wrap: break-word;
+	text-align: justify;
+}
+.here{
+	text-decoration: underline; 
+	color:white;
+}
+.here:hover{
+	color:black;
+}
+.award{
+	font-family:Candara;
+	//border-bottom:2px solid white;
+	height:380px;
+	width:800px;
+	position: relative;
+	margin:25px 25px 0px 0px;
+}
+.award-name{
+	margin-top:20px;
+	margin-left:0px;
+	line-height:25px;
+	position: relative;
+	font-size:25px;
+	color:white;
+	word-wrap: break-word;
+	text-align:center;
+	list-style-type: none;
+}
+.award-des{	
+	margin-top:5px;
+	position: relative;
+	font-size:20px;
+	color:white;
+	word-wrap: break-word;
+	text-align:center;
+	list-style-type: none;
+}
+.anchor{
+  display: block;
+  height: 100px; /*same height as header*/
+  margin-top: -100px; /*same height as header*/
+  visibility: hidden;
+}
+.patch-bot{
+	position: relative;
+	bottom:0px;
+	height:200px;
+	width: 100%
+	margin:0 auto;
+	background-color:#DC143C;
+	z-index:0;
+}
+.patch-top{
+	z-index:0;
+	position: relative;
+	top:100px;
+	height:100px;
+	width: 100%;
+	margin:0 auto;
+	background-color:#DC143C;
+}
+
+
+
+
+
+
