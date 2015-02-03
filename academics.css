@@ -73,7 +73,7 @@ html, body{
 	height:auto;
 	width:250px;
 	border-bottom:2px solid white;
-	font-size:40px;
+	font-size:35px;
 	position: relative;
 	margin: 0 auto;
 	
@@ -167,6 +167,13 @@ html, body{
 	width: 100%;
 	margin:0 auto;
 	background-color:#DC143C;
+}
+.pub{
+	font-family:Candara;
+	list-style-type: none;
+	text-align: left;
+	font-size:20px;
+	margin-bottom:30px;
 }
 
 
