@@ -3,6 +3,8 @@
   <head>
   	<title>Ziqi Li - Contact</title>
     <link rel="stylesheet" href="home.css"/>
+	<link rel="stylesheet" href="contact.css"/>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:700,600,400' rel='stylesheet' type='text/css'>
   <body>
   	<div id='top'><a href="index.html" id='name-logo'>Ziqi Li</a>
   		<div id='social-icons-container'>
@@ -12,8 +14,7 @@
 			<a href="https://github.com/c040120"><img class="social-icon" src="social-icons/github.png" alt="Github"></a>
   		</div>
   		<div id='menuHolder'>
-  			<div onclick="location.href = 'home.html';" class='menuItem'>Home
-  			</div>
+  			<div onclick="location.href = 'home.html';" class='menuItem'>Home</div>
   			<div onclick="location.href = 'academics.html';" class='menuItem'>Academics</div>
   			<div onclick="location.href = 'foodie.html';" class='menuItem'>FoodMap</div>
   			<div onclick="location.href = 'fun.html';" class='menuItem'>Fun</div>
@@ -22,8 +23,26 @@
   			</div>
   		</div>
   	</div>
-  	<div id='main'>
-  		<div id='content'>Coming Soon~</div>
+	
+  	<div id='container'>
+		<div id="box">
+			Feel free to email me
+		</div>
+		<div id="box-contactinfo">
+			Ziqi Li, Graduate Reseach Assistant<br>Department of Geography, George Washington University
+			liziqi1992@gwu.edu
+		</div>
+		<div id="form-div">
+			<form class="form" id="form1" method="post" action="insert.php">
+				<input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name" id="name" />
+				<input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" />
+				<textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Comment"></textarea>
+				<div class="submit">
+					<input type="submit" value="SEND" id="button-blue"/>
+					<div class="ease"></div>
+				</div>
+			</form>
+		</div>
   	</div>
   </body>
 </html>

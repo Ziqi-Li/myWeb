@@ -7,26 +7,26 @@ html, body{
 #float-pager{
 	position:fixed;
 	top:200px;
-	left:50px;
+	left:100px;
 	height:auto;
 	width: 150px;
 	font-size:23px;
 	text-align:left;
 	border-left-style: solid;
-	border-left-width: 1px;
+	border-left-width: 2px;
 	border-color:white;
 	padding-left:10px;
 }
 .edu-time{
 	list-style-type: none;
 	text-align: center;
-	font-size:25px;
+	font-size:22px;
 }
 .edu-degree{
 	position:relative;
 	list-style-type: none;
 	text-align: center;
-	font-size:23px;
+	font-size:20px;
 	margin-bottom:20px;
 }
 .float-item{
@@ -39,6 +39,9 @@ html, body{
 .float-item:hover{
 	background-color:white;
 	color:#DC143C;
+	-o-transition: background .3s linear;
+	-moz-transition: background .3s linear;
+    -webkit-transition: background .3s linear;
 }
 #container{
 	position: relative;
@@ -52,7 +55,7 @@ html, body{
 #main-adm{
 	z-index:0;
 	margin-bottom:0px;
-	font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
+	font-family: 'Open Sans', sans-serif;
 	width: 100%;
 	height:auto;
 	position: absolute;
@@ -71,7 +74,7 @@ html, body{
 }
 .category{
 	height:auto;
-	width:250px;
+	width:230px;
 	border-bottom:2px solid white;
 	font-size:35px;
 	position: relative;
@@ -95,7 +98,7 @@ html, body{
 	float:left;
 }
 .description{
-	font-family:Candara;
+	font-family: 'Open Sans', sans-serif;
 	//border-style: solid;
 	//border-width: 2px;
 	border-color:white;
@@ -104,7 +107,7 @@ html, body{
 	line-height:25px;
 	position: relative;
 	float:right;
-	font-size:20px;
+	font-size:18px;
 	color:white;
 	word-wrap: break-word;
 	text-align: justify;
@@ -117,7 +120,7 @@ html, body{
 	color:black;
 }
 .award{
-	font-family:Candara;
+	font-family: 'Open Sans', sans-serif;
 	//border-bottom:2px solid white;
 	height:380px;
 	width:800px;
@@ -129,7 +132,7 @@ html, body{
 	margin-left:0px;
 	line-height:25px;
 	position: relative;
-	font-size:25px;
+	font-size:23px;
 	color:white;
 	word-wrap: break-word;
 	text-align:center;
@@ -154,7 +157,7 @@ html, body{
 	position: relative;
 	bottom:0px;
 	height:200px;
-	width: 100%
+	width: 100%;
 	margin:0 auto;
 	background-color:#DC143C;
 	z-index:0;
@@ -169,7 +172,7 @@ html, body{
 	background-color:#DC143C;
 }
 .pub{
-	font-family:Candara;
+	font-family: 'Open Sans', sans-serif;
 	list-style-type: none;
 	text-align: left;
 	font-size:20px;

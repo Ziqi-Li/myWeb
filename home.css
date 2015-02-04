@@ -3,19 +3,18 @@ html, body{
     margin: 0px;
     padding: 0px;
     width: 100%;
-    }
+}
 #top{
 	position: fixed;
-	font-family:Copperplate;
+	font-family: 'Open Sans', sans-serif;
 	text-align: left;
 	height: 100px;
 	width: 100%;
-    font-size:50px;
+    font-size:38px;
 	color:white;
 	background-color:#323232;
 	border-bottom:thick solid #323232;
 	z-index:1;
-	
 }
 #name-logo{
 	text-decoration: none; 
@@ -57,6 +56,7 @@ html, body{
 }
 .menuItem:hover{
 	color:#DC143C;
+	cursor:pointer;
 }
 #botline{
 	margin-top: 10px;
@@ -67,7 +67,7 @@ html, body{
 #main{
 	z-index:0;
 	margin-bottom:0px;
-	font-family:Copperplate;
+	font-family: 'Open Sans', sans-serif;
 	height:100%;
 	width: 100%;
 	position: absolute;
@@ -97,7 +97,7 @@ html, body{
 	float:left;
 }
 #text{
-	font-family:Candara;
+	font-family: 'Open Sans', sans-serif;
 	height:400px;
 	width: 600px;
 	right:100px;
@@ -105,7 +105,7 @@ html, body{
 	line-height:25px;
 	position: relative;
 	float:right;
-	font-size:20px;
+	font-size:18px;
 	color:white;
 	word-wrap: break-word;
 	text-align: justify;
