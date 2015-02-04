@@ -9,12 +9,6 @@ $subject = "Sent from my Personal Website";
 $message = " Name: " . $name . "\r\n Email: " . $email . "\r\n Text: " . $text;
 
 if(mail($to,$subject,$message))
-{
-	echo "<script type=\"text/javascript\">".
-        "alert('success');".
-        "</script>";
-// Created by Future Tutorials
-}else{
-	echo '<p>Error! Please try again.</p>;
-}	
+{// Created by Future Tutorials
+}else{}	
 ?>

@@ -5,6 +5,7 @@ html, body{
     padding: 0px;
     }
 #float-pager{
+	font-family: 'Open Sans', sans-serif;
 	position:fixed;
 	top:200px;
 	left:100px;
@@ -132,7 +133,7 @@ html, body{
 	margin-left:0px;
 	line-height:25px;
 	position: relative;
-	font-size:23px;
+	font-size:22px;
 	color:white;
 	word-wrap: break-word;
 	text-align:center;
