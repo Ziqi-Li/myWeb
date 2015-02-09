@@ -28,6 +28,8 @@ function initialize() {
 	showRestaurant();
 }
 var restaurantList = [
+	new restaurant("Panda Gourmet", "2700 New York Avenue Northeast, Washington, DC 20002", 38.917961, -76.970644),
+	new restaurant("Brooklyn Bagel Bakery", "2055 Wilson Blvd, Arlington, VA 22201", 38.891883, -77.084335),
 	new restaurant("Honey Pig", "7220 Columbia Pike, Annandale, VA 22003", 38.831112, -77.194603),
 	new restaurant("China Express", "3303 Lee Highway, Arlington, VA 22207",38.895999, -77.101135),
 	new restaurant("Hot&Juicy CrawFish", "2651 Connecticut Avenue Northwest, Washington, DC 20008",38.924281, -77.051951),
