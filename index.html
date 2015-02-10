@@ -8,6 +8,15 @@
     <script type="text/javascript" src="jquery-1.11.2.js"></script>
   </head>
   <body>
+  	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	var js, fjs = d.getElementsByTagName(s)[0];
+	if (d.getElementById(id)) return;
+	js = d.createElement(s); js.id = id;
+	js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+	fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+	<div class="fb-like" data-href="http://home.gwu.edu/~liziqi1992/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>
   	<div id='topWelcome'>Welcome!</div>
 	<canvas id="myCanvas"></canvas>
 	<script type="text/javascript" src="bubbles.js"></script>
