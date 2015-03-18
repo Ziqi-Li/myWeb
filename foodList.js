@@ -1,6 +1,12 @@
 var restaurantList = [
+	new restaurant("Baskin-Robbins Lee Hwy", "3520 Lee Hwy Arlington, VA 22207", 38.895855, -77.103882),
+	new restaurant("Tonic", "2036 G St NW, Washington, DC 20036", 38.898051, -77.046462),
+	new restaurant("BonChon Chicken Arlington", "2209 N Pershing Dr, Arlington", 38.880940, -77.086029),
+	new restaurant("Peking Gourmet Inn", "6029 Leesburg Pike, Falls Church, VA 22041", 38.855487, -77.139372),
+	new restaurant("KFC-Lee Hwy", "4901 Lee Highway, Arlington, VA 22207", 38.896643, -77.128281),
 	new restaurant("Panda Gourmet", "2700 New York Avenue Northeast, Washington, DC 20002", 38.917961, -76.970644),
 	new restaurant("Brooklyn Bagel Bakery", "2055 Wilson Blvd, Arlington, VA 22201", 38.891883, -77.084335),
+	new restaurant("Sichuan Pavilion", "1814 K St NW, Washington, DC 20006", 38.902162, -77.042527),
 	new restaurant("Honey Pig", "7220 Columbia Pike, Annandale, VA 22003", 38.831662, -77.194163),
 	new restaurant("China Express", "3303 Lee Highway, Arlington, VA 22207",38.896742, -77.101402),
 	new restaurant("Hot&Juicy CrawFish", "2651 Connecticut Avenue Northwest, Washington, DC 20008",38.925024, -77.052005),
