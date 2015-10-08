@@ -1,23 +1,45 @@
 <!DOCTYPE html>
 <html>
   <head>
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans:700,600,400' rel='stylesheet' type='text/css'>
-  	<title>I am Ziqi Li - Welcome!</title>
-    <link rel="stylesheet" href="welcome.css"/>
-    <script type="text/javascript" src="http://s3.amazonaws.com/codecademy-content/courses/hour-of-code/js/alphabet.js"></script>
-    <script type="text/javascript" src="jquery-1.11.2.js"></script>
-  </head>
+  	<title>Ziqi Li - Home</title>
+    <link rel="stylesheet" href="index.css"/>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:700,600,400' rel='stylesheet' type='text/css'>
   <body>
-	<div class="fb-like" data-href="http://home.gwu.edu/~liziqi1992/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>
-  	<div id='topWelcome'>Welcome!</div>
-	<canvas id="myCanvas"></canvas>
-	<script type="text/javascript" src="bubbles.js"></script>
-	<script type="text/javascript" src="main.js"></script>
-	<div class='enter' onclick="enterToHomePage()">ENTER</div>
-
-	<div align="center" left=200px>
-		<a href="http://www.simplehitcounter.com" target="_blank">
-		<img src="http://simplehitcounter.com/hit.php?uid=1868063&f=16777215&b=0" border="0" height="18" width="83" alt="web counter"></a>
-	</div>
+  
+  	<div id='top'><a href="index.html" id='name-logo'>Ziqi Li</a>
+  		<div id='social-icons-container'>
+  			<a href="https://www.facebook.com/ziqi.li.9"><img class="social-icon" src="social-icons/facebook.png" alt="Facebook" /></a>
+  			<a href="https://www.linkedin.com/pub/ziqi-li/80/24b/6b4"><img class="social-icon" src="social-icons/linkedin.png" alt="LinkedIn" /></a>
+			<a href="https://twitter.com/Way_of_Ziqi"><img class="social-icon" src="social-icons/twitter.png" alt="Twitter" /></a>
+			<a href="https://github.com/c040120"><img class="social-icon" src="social-icons/github.png" alt="Github"></a>
+  		</div>
+  		<div id='menuHolder'>
+  			<div onclick="location.href = 'home.html';" class='menuItem'>Home
+  				<div id='botline'></div>
+  			</div>
+  			<div onclick="location.href = 'academics.html';" class='menuItem'>Academics</div>
+  			<div onclick="location.href = 'foodie.html';" class='menuItem'>FoodMap</div>
+  		</div>
+  	</div>
+  	<div id='main'>
+  		<div id='content'>
+  			<img src='myself.jpg' id='selfie'></img>
+  			<div id='text'>Welcome! This is Ziqi Li, M.A. student in Geography Department at George Washington University.
+  						   I'm originally from Beijing, China. I pursued my Bachelor's degree in geomatics from both Wuhan University (China) and University of Waterloo (Canada). 
+  						   Also, I gladly minored in Computer Science at Waterloo, and having fun developing <a id='here' href="fun.html">IOS</a> and web apps.
+  						   My research interests are GIS, remote sensing, arctic climate change, and urban sustainability. 
+  						   Check out my current and previous works <a id='here' href="academics.html">here</a>.
+  						   What is more, I'm a real foodie always passionate in exploring new places. 
+  						   There is a <a id='here' href="foodie.html">map</a> showing places I have been to in DC area.
+  						   Last but not least, I am really an addicted noob gamer struggling in LoL, WoW and Hearthstone. </div>
+  		</div>
+  	</div>
+  	
+  	<div id='copyright'>
+  		ziqili2015&copy;
+  	
+  	</div>
+  	
+  	<div id='bot'></div>
   </body>
 </html>

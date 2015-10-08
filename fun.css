@@ -30,20 +30,6 @@ html, body{
 	font-size:20px;
 	margin-bottom:20px;
 }
-.float-item{
-	height:30px;
-	margin-top:2px;
-	line-height:30px;
-	text-decoration:none;
-	color:white;
-}
-.float-item:hover{
-	background-color:white;
-	color:#DC143C;
-	-o-transition: background .3s linear;
-	-moz-transition: background .3s linear;
-    -webkit-transition: background .3s linear;
-}
 #container{
 	position: relative;
 	height:auto;
@@ -51,7 +37,7 @@ html, body{
 	font-size:50px;
 	text-align: center;
 	margin:0 auto;
-	background-color:#DC143C;
+	background-color:white;
 }
 #main-adm{
 	z-index:0;
@@ -60,9 +46,9 @@ html, body{
 	width: 100%;
 	height:auto;
 	position: absolute;
-	color:white;
+	color:black;
 	font-size:50px;
-	background-color:#DC143C;
+	background-color:white;
 	text-align: center;
 	overflow:hidden;
 }
@@ -173,7 +159,7 @@ html, body{
 	margin-top:5px;
 	position: relative;
 	font-size:20px;
-	color:white;
+	color:black;
 	word-wrap: break-word;
 	text-align:center;
 	list-style-type: none;
@@ -190,7 +176,7 @@ html, body{
 	height:200px;
 	width: 100%;
 	margin:0 auto;
-	background-color:#DC143C;
+	background-color:white;
 	z-index:-1;
 }
 .patch-top{
@@ -200,7 +186,7 @@ html, body{
 	height:100px;
 	width: 100%;
 	margin:0 auto;
-	background-color:#DC143C;
+	background-color:white;
 }
 .pub{
 	font-family: 'Open Sans', sans-serif;
