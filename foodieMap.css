@@ -20,7 +20,7 @@
 	margin:0;
 	padding: 5px;
 	font-size:15px;
-	background:#32A3D3;
+	background:black;
 	width: auto;
 	height: auto;
 	line-height:15px;
@@ -61,7 +61,7 @@
 .storeName:hover{
 	color:white;
     transition: background .3s linear;
-    background: #32A3D3;
+    background: black;
          -o-transition: background .3s linear;
        -moz-transition: background .3s linear;
     -webkit-transition: background .3s linear;
