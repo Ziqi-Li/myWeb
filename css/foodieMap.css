@@ -1,8 +1,15 @@
+html, body{
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
 #map-canvas{
-	height:100%;
+	top:13%;
+	height:86%;
 	width:100%;
-	margin:0;
-	padding:0;
+	position:relative;
+
 }
 #list-container{
 	position: fixed;

@@ -12,8 +12,11 @@ var infos = [];
 
 function initialize() {
 	geocoder = new google.maps.Geocoder();
-	var styles = [{"elementType":"labels","stylers":[{"visibility":"off"}]},{"elementType":"geometry","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"geometry","stylers":[{"visibility":"on"},{"color":"#000000"}]},{"featureType":"landscape","stylers":[{"color":"#ffffff"},{"visibility":"on"}]},{}];
-
+	var styles = [{
+	  stylers: [
+		{ hue: "#00a1ff" },
+		{ gamma: 0.43  }
+	  ]}];
 	var mapOptions = {
 		center: new google.maps.LatLng(38.897997, -77.079247),
 		zoom: 12,
