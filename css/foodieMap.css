@@ -16,7 +16,7 @@
 	opacity: 0.9;
 }
 #title{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	margin:0;
 	padding: 5px;
 	font-size:15px;
@@ -38,7 +38,7 @@
 	overflow: scroll;
 }
 .storeName {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	margin:0;
 	padding: 5px;
 	font-size:13px;
@@ -50,7 +50,7 @@
 	word-wrap:break-word;
 }
 .infoStoreName{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	margin:0;
 	font-size:12px;
 	width: auto;
@@ -73,7 +73,7 @@
 }	
 
 #panel {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	margin:0;
 	padding: 0;
 	font-size:16px;
