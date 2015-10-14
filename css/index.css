@@ -20,7 +20,7 @@ html, body{
 #name-logo{
 	text-decoration: none; 
 	color:black;
-	margin-left:120px;
+	margin-left:5%;
 	margin-top:10px;
 	position: fixed;
 	color:black;
@@ -28,10 +28,8 @@ html, body{
 }
 #social-icons-container{
 	position: fixed;
-	margin-left:170px;
-	top:55px;
-	width:20;
-	height:20;
+	margin-left:10%;
+	margin-top:35px;
 	
 }
 .social-icon{
@@ -40,20 +38,17 @@ html, body{
 }
 
 #menuHolder{
-	top:40px;
-	right: 20%;
-	height: 60px;
+	right: 10%;
+	height: 10%;
 	width: auto;
 	position: absolute;
 	color:black;
 }
 .menuItem{
-	margin-top: 25px;
 	height: 30px;
 	width: auto;
 	position: relative;
 	color:black;
-	font-size:22px;
 	float: left;
 	margin-right: 30px;
 }
@@ -91,11 +86,6 @@ html, body{
 	margin:0 auto;
 }
 #selfie{
-	border-color:black;
-	height:200px;
-	width: 200px;
-	left:25%;
-	top:20%;
 	position: relative;
 	float:left;
 	border-radius: 50%;
@@ -104,19 +94,12 @@ html, body{
 }
 #text{
 	font-family: 'Raleway', sans-serif;
-	height:300px;
-	width: 500px;
-	right:14%;
-	top: 15%;
-	line-height:25px;
+	color:black;
 	position: relative;
 	float:left;
-	margin-left:50%;
-	font-size:18px;
-	color:black;
-	word-wrap: break-word;
-	#text-align: justify;
-	border-left: 1px solid #323232;
+	vertical-align: middle;
+	display:table-cell;
+	
 	
 }
 
@@ -125,10 +108,108 @@ html, body{
 	height: 72px;
 	position: relative;
 	left: 50%;
+	float:left;
 	margin-left: -30px;
 	bottom: 120px;
-	font-size:18px;
+	
+	text-align: center;
 	font-family: 'Raleway', sans-serif;
+}
+
+@media only screen and (min-width:200px) {
+	#text{
+	height:200px;
+	width: 400px;
+	font-size:16px;
+	left:50%;
+	margin-left:-200px;
+	top:30%;
+	position: absolute;
+	}
+	
+	#selfie{
+	height:150px;
+	width: 150px;
+	margin-left:-75px;
+	left:50%;
+	top:6%;
+	position: absolute;
+	}
+	#explore{
+	font-size:14px;
+	}
+	.menuItem{
+	font-size:14px;
+	margin-top: 35px;
+	}
+	.social-icon{
+	width:20px;
+	height:20px;
+	}
+	#top{
+	height:60px;
+	font-size:20px;
+	}
+	#social-icons-container{
+	margin-top:35px;
+	}
+	#menu-holder{
+		margin-top:10px;
+	}
+}
+@media only screen and (min-width:900px) {
+	#text{font-size:18px;
+	height:250px;
+	width: 500px;
+	top: 15%;
+	line-height:23px;
+	right:50%;
+	margin-left:0px;
+	word-wrap: break-word;
+	margin-top:25px;
+	}
+	#selfie{
+	height:200px;
+	width: 200px;
+	margin-top:50px;
+	margin-bottom:50px;
+	margin-left:-300px;
+	left:50%;
+	top:15%;
+	}
+	#verticalLine{
+	left:50%;
+	margin-left:0.5px;
+	top:15%;
+	margin-top:25px;
+	width:1px;
+	height:250px;
+	float:left;
+	position: relative;
+	background-color:black;
+	}
+	#explore{
+	font-size:18px;
+	}
+	.social-icon{
+	width:32px;
+	height:32px;
+	}
+	#top{
+	height:100px;
+	font-size:35px;
+	}
+	.menuItem{
+	font-size:20px;
+	margin-top: 55px;
+	}
+	#social-icons-container{
+	margin-top:55px;
+	}
+	#menu-holder{
+		margin-top:20px;
+	}
+	
 }
 #fake{
 	width: 60px;

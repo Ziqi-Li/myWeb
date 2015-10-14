@@ -37,17 +37,17 @@ ARROWS
 
 .arrows path.a1 {
 	animation-delay:-1s;
-	-webkit-animation-delay:-1s; /* Safari 和 Chrome */
+	-webkit-animation-delay:-1s; /* Safari and Chrome */
 }
 
 .arrows path.a2 {
 	animation-delay:-0.5s;
-	-webkit-animation-delay:-0.5s; /* Safari 和 Chrome */
+	-webkit-animation-delay:-0.5s; /* Safari and Chrome */
 }
 
 .arrows path.a3 {	
 	animation-delay:0s;
-	-webkit-animation-delay:0s; /* Safari 和 Chrome */
+	-webkit-animation-delay:0s; /* Safari and Chrome */
 }
 
 
@@ -321,8 +321,8 @@ img {
 }
 
 h1, h2 {
-  font-family: 'Raleway', sans-serif;
-  #font-weight: bold;
+  font-family: 'Lato';
+  font-weight: bold;
 }
 
 /* -------------------------------- 
@@ -542,11 +542,11 @@ header h1 {
 }
 .cd-timeline-content {
   position: relative;
-  margin-left: 60px;
+  margin-left: 100px;
   background: white;
   #border-radius: 0.25em;
   padding: 1em;
-  box-shadow: 0 0px 0 #d7e4ed;
+  box-shadow: 0 1px 0 #d7e4ed;
 }
 .cd-timeline-content:after {
   content: "";
@@ -554,18 +554,22 @@ header h1 {
   clear: both;
 }
 .cd-timeline-content h2 {
-  color: #303e49;
+	font-size: 20px;
+  	font-size: 1.8rem;
+  	color: black;
+  
 }
-.cd-timeline-content p, .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
-  font-size: 10px;
-  font-size: 1rem;
+.cd-timeline-content p, .cd-timeline-content br, .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
+  font-size: 15px;
+  font-size: 1.5rem;
+  color:black;
 }
 .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
   display: inline-block;
 }
 .cd-timeline-content p {
   margin: 1em 0;
-  line-height: 1.6;
+  line-height: 1.2;
 }
 .cd-timeline-content .cd-read-more {
   float: right;
@@ -594,10 +598,16 @@ header h1 {
 }
 @media only screen and (min-width: 768px) {
   .cd-timeline-content h2 {
-    font-size: 30px;
-    font-size: 1.8rem;
+    font-size: 25px;
+    font-size: 1.5rem;
   }
   .cd-timeline-content p {
+    font-size: 15px;
+    font-size: 1.5rem;
+    line-height:20px;
+    color:black;
+  }
+  .cd-timeline-content br {
     font-size: 15px;
     font-size: 1.5rem;
     line-height:20px;
